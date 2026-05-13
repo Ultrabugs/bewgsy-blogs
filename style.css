@@ -169,7 +169,6 @@ main {
 }
 
 .blog-preview-content p::first-letter {
-    color: purple;
     font-size: bold;
 }
 
