@@ -46,6 +46,11 @@ h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+::selection {
+    background-color: darkorange;
+}
+
+
 html {
     background-color: rgba(20, 20, 20, 0.945);
     color: white;
@@ -61,6 +66,8 @@ body {
 main {
     display:flex;
     flex: 1;
+    overflow: auto;
+  
 }
 
 
@@ -106,7 +113,7 @@ main {
     width: 100%;
     flex-direction: column;
     align-items: center;
-    
+    overflow-x: auto;
 }
 
 .title-header{
@@ -151,6 +158,11 @@ main {
 
 .blog-preview-content {
     flex: 1;
+}
+
+.blog-preview-content p::first-letter {
+    color: purple;
+    font-size: bold;
 }
 
 .blog-footer{
@@ -236,6 +248,12 @@ footer {
 
 .watermark img{
     padding-left: 20px;
+}
+
+.watermark span:hover{
+    color: rgba(255, 140, 0, 0.856);
+    padding: 2px;
+    cursor: pointer;
 }
 
 .copyright{
