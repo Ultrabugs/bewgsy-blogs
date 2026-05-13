@@ -103,6 +103,9 @@ main {
     padding: 0;
 }
 
+.main-sidebar ul li a img { 
+    padding-right: 5px;
+}
 
 .main-sidebar ul li a:hover{
     color: rgb(255, 140, 0);
@@ -120,6 +123,10 @@ main {
     margin-top: 20px;
 }
 
+.title-header > p::first-letter{
+    color: darkorange;
+}
+
 .blog-contents {
     display: flex;
     margin: 20px;
@@ -130,17 +137,18 @@ main {
 .blog-cells{ 
     display: flex;
     flex-direction: column;
-    background-color: darkorange;
+    background-color: rgb(160, 92, 2);
     width: 400px;
     height: 300px;
     border-radius: 20px;
+    box-shadow: 1px -1px 23px -17px #A88C59;
 }
 
 .blog-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 21px;
     font-weight: bolder;
-    border-bottom: 1px solid pink;
+    border-bottom: 2px solid white;
 }
 
 .blog-title-box {
@@ -175,6 +183,9 @@ main {
 
 .blog-footer a {
     color: white;
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
 }
 
 .blog-footer a:hover{
