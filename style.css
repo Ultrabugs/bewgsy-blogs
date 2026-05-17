@@ -85,8 +85,9 @@ main {
 
 .main-sidebar {
     display: flex; 
-    width: 200px;
-    border-right: 1px solid darkorange;
+    width: 300px;
+    border-right: 3px solid darkorange;
+    justify-content: center;
 
 }
 
@@ -146,12 +147,22 @@ header ul {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid darkorange; 
+    border-bottom: 3px solid darkorange; 
 }
 
 .header-title{ 
     display: flex; 
     flex-direction: row;
+}
+
+.header-title p {
+    border-left: 3px solid white; 
+    padding-left: 15px;
+}
+
+.header-title p span {
+    border-right: 3px solid darkorange;
+    padding-right: 15px;
 }
 
 .header-links{
@@ -186,7 +197,7 @@ footer {
     justify-content: flex-end;
     padding-right: 20px;
     height: 70px;
-    border-top: 1px solid darkorange;
+    border-top: 3px solid darkorange;
 }
 
 .footer-container { 

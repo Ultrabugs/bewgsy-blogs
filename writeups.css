@@ -31,7 +31,7 @@
 }
 
 .writeups-container ul li a:hover{
-    color: red;
+    color: rgba(255, 0, 0, 0.795);
     
     
 }
