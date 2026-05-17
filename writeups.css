@@ -14,7 +14,7 @@
 }
 
 .writeups-container ul li::marker {
-  color: red;
+  color: darkorange;
 }
  
 .writeups-container ul li {
