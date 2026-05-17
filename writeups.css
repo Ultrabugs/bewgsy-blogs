@@ -9,7 +9,10 @@
 }
 
 .writeups-container h1 {
-    margin-bottom: 5px;
+    margin-bottom: 7px;
+    margin-left: 5px;
+    width: 400px;
+    border-bottom: 3px solid darkorange;
     
 }
 
